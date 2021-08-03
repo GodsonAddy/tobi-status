@@ -1,16 +1,16 @@
 <template>
   <div>
-    <resolved />
+    <pending />
   </div>
 </template>
 
 <script>
-import resolved from "@/components/resolved.vue";
+import pending from "@/components/pending.vue";
 
 export default {
-  name: "Home",
+  name: "Status",
   components: {
-    resolved,
+    pending,
   },
 };
 </script>

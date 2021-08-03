@@ -1,24 +1,22 @@
 <template>
-  <div id="app">
+  <div>
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/resolved">resolved</router-link> |
+      <router-link to="/inProgress">inProgress</router-link> |
+      <router-link to="/pending">Pending</router-link>
     </div>
     <router-view />
   </div>
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
 }
-
 #nav {
-  padding: 30px;
+  margin-left: 100px;
 }
 
 #nav a {
@@ -27,6 +25,6 @@
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: red;
 }
 </style>
