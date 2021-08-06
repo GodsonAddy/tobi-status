@@ -5,7 +5,7 @@
     </a>
     <div class="card-wrap">
       <div class="logo">
-        <img alt="logo" src="../assets/download.jpg" />
+        <img alt="logo" src="../assets/tobi.jpg" />
       </div>
       <div class="card">
         <img class="loading" alt="loading" src="../assets/loading.png" />
@@ -14,7 +14,7 @@
           <p>
             Your reported complaint with incident ID:
             <strong>is in progress</strong>. We are working speedily to resolve
-            it. To follow up on your complaint. Please send an SMS to 655.
+            it. To follow up on your complaint, please send an SMS to 655.
           </p>
         </div>
       </div>
@@ -96,7 +96,6 @@ export default {
 .loading {
   height: 80px;
   width: 80px;
-  margin-bottom: 20px;
 }
 strong {
   color: #ce9603;
