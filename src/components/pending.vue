@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <a href="https://vodafone.com.gh" alt="" target="_blank" class="vodafone">
+    <a href="https://vodafone.com.gh/personal" alt="" target="_blank" class="vodafone">
       <img alt="logo" src="../assets/vodafone.png" />
     </a>
     <div class="card-wrap">
